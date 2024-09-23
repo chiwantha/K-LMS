@@ -1,6 +1,6 @@
 <?php
 
-    $conn = mysqli_connect('153.92.15.9', 'u674260424_Kchordgroup', 'Kchordgroup*789789','u674260424_e_learn') or die('connection failed');
+    $conn = mysqli_connect('153.92.15.910', 'u674260424_Kchordgroup', '','u674260424_e_learn') or die('connection failed');
     // $conn = mysqli_connect('localhost', 'root', 'root','e_learn') or die('connection failed');
 
     function get_versions($conn) {
