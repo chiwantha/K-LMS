@@ -1,0 +1,38 @@
+/* Style tab links */
+
+.tab-container {
+    border-radius: 10px;
+}
+
+.tablink {
+    background-color: blueviolet;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.33%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+
+  .tablink:active {
+    background-color: rgb(165, 108, 218);
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    height: 100%;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  #Active {background-color: transparent;}
+  #Pending {background-color: transparent;}
+  #Suspend {background-color: transparent;}

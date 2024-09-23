@@ -1,0 +1,240 @@
+.navbar {
+    background: #2D436B;
+}
+
+.navbar .logo {
+    height: 40px;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:active {
+    color: #fff !important;
+}
+
+.navbar li {
+    color: greenyellow;
+}
+
+.dropdown-menu a:hover {
+    color: aqua !important;
+    background-color: transparent;
+}
+
+.dropdown-menu {
+    background-color:   rgba(140, 177, 243, 0.5) !important;
+}
+
+.navbar a:hover {
+    color: chartreuse;
+}
+
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%) fixed,
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%) fixed;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - var(--navbar-height));
+    overflow: auto;
+}
+
+#radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -40px;
+    left: -130px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+    position: absolute;
+}
+
+#radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -30px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+    position: absolute;
+}
+
+.bg-glass {
+    background-color: rgba(140, 177, 243, 0.5) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+}
+
+.card-body {
+    border-radius: 50px;
+}
+
+.bg-glass h2 {
+    color: #fff;
+}
+
+.hero-student-login .btn-success {
+    width: 49%;
+}
+
+.hero-student-login .btn-warning {
+    width: 49%;
+}
+
+.box{
+    padding:40px 0px;
+    background: rgba(140, 177, 243, 0.2);
+}
+
+.box-part{
+    background: rgba(140, 177, 243, 0.5);
+    border-radius: 10px;;
+    padding:40px 0px;
+    margin:10px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+    color:#4183D7;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.lesson-card .card {
+    background: rgb(247, 235, 253);
+    border: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the shadow properties as needed */
+    border-radius: 15px;
+}
+
+.lesson-card .card img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 15px;
+}
+
+.lesson-card .card a {
+    bottom: 0;
+}
+
+.lesson-pre-title {
+    color: #fff;
+}
+
+.lesson-pre-price {
+    color: greenyellow;
+}
+
+.lesson-pre-discription {
+    color: #fff;
+    text-align: left;
+}
+
+.lesson-content li {
+    text-align: left;
+    color: #fff;
+}
+
+/*----------------tutor toggle form ---------------*/
+
+.classFormregister label {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+/*---------------------tutor-progress-bar-----------------*/
+
+.loading_image {
+    width: 180px;
+    height: 180px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+ /* Pagination styles */
+#nav {
+    margin-top: 10px;
+  }
+
+.navi_page {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #ac5dc4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.1s linear;
+}
+
+.navi_page:hover {
+    transform: scale(1.1);
+}
+
+.navi_prev, .navi_next {
+    margin-top: 10px;
+    color: #fff;
+    background: rgba(113, 99, 186, 255);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    transition: 0.1s linear;
+}
+
+.navi_prev:hover, .navi_next:hover {
+    transform: scale(1.1);
+}
+
+.navi_page.active {
+    background-color: #9930b3;
+    color: #fff;
+}
+
+#ticketModal .modal-content-back-glass {
+    background: #8550ff;  /* fallback for old browsers */
+}
+
+/*------------------------------------student_profile---------------------------------*/
+
+.profile-image {
+    display: flex;
+    width: 100%;
+    height: auto; /* Adjust height to maintain aspect ratio */
+    border-radius: 8px;
+    padding: 0;
+    aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
+    object-fit: cover; /* Ensures the image covers the entire area while maintaining aspect ratio */
+    align-items: flex-start; /* Align items at the top */
+}
+
+.title-ul {
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 0 8px 0 8px;
+    margin-bottom: 10px;
+}

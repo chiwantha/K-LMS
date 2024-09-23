@@ -1,0 +1,85 @@
+.class-video-disable {
+    pointer-events: none;
+}
+
+.u-glass {
+    background: rgba(255, 0, 4, 0.486);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.3px);
+    -webkit-backdrop-filter: blur(14.3px);
+    border: 1px solid rgba(255, 0, 4, 0.404);
+}
+
+.b-glass {
+    background: rgba(151, 193, 255, 0.77);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(151, 193, 255, 1);
+}
+
+.class-payment-title-wrapper {
+    position: relative;
+    background: #3EB649;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.class-payment-upades-wrapper {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.class-payment-upades-wrapper h1 {
+    font-size: 30px;
+}
+
+.class-payment-upades-wrapper p {
+    font-size: 18px;
+    height: auto;
+}
+
+.bank-payment-slot-wrapper {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.bank-payment-slot-wrapper .col-sm-6 {
+    margin: 0;
+    padding: 0;
+}
+
+.bank-details-wrapper {
+    margin: 5px;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #083994;
+    border: 1px solid rgba(72, 255, 0, 0.322);
+}
+
+.class-payment-form-title-wrapper{
+    position: relative;
+    background: #3EB649;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.class-payment-form-wrapper {
+    padding: 15px;
+    border-radius: 10px;
+}

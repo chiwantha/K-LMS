@@ -1,0 +1,102 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 0px 0px 0 0;
+    overflow: hidden;
+}
+
+thead {
+    background: rgba(113, 99, 186, 255);
+    color: #fff;
+    border-radius: 10px;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+}
+
+tbody {
+    background: #f2f2f2;
+}
+
+td {
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background: #fff;
+}
+
+tfoot {
+    background: rgba(113, 99, 186, 255);
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+}
+
+tfoot td {
+    padding: 2px;
+}
+
+.activate {
+    color: #fff;
+    background: orange;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
+.activate:hover {
+    transform: scale(1.05);
+}
+
+.suspend {
+    color: #fff;
+    background: tomato;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
+.suspend:hover {
+    transform: scale(1.05);
+}
+
+ /* Pagination styles */
+#nav {
+margin-top: 10px;
+}
+
+#nav a, #nav span {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+}
+#nav a:hover {
+    background-color: #ddd;
+}
+
+#nav .prev, #nav .next {
+    color: #fff;
+    background: rgba(113, 99, 186, 255);
+}
+
+#nav .prev, #nav .next {
+    font-weight: bold;
+}
+
+#nav .page.active {
+    background-color: #333;
+    color: #fff;
+}

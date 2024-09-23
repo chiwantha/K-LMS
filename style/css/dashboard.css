@@ -1,0 +1,127 @@
+.al-countdown-wraper {
+    position: relative;
+    background: #EE357A;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.al-countdown-title {
+    font-size: 30px;
+}
+
+.al-countdown-sub-title {
+    font-size: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.my-data-wraper {
+    position: relative;
+    background: #4453A4;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.my-data-wraper .my-data-btn-row {
+    gap: 0.5rem;
+}
+
+.my-data-wraper .my-data-btn {
+    background-color: white;
+    color: #4453A4;
+    font-size: 35px;
+    width: 100%;
+    transition: 0.5s linear;
+}
+
+.my-data-wraper .my-data-btn:hover {
+    background-color: cornflowerblue ;
+    color: white;
+    transform: scale(1.05);
+}
+
+.my-data-tile-wraper {
+    position: relative;
+    padding: 0 0px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 0.5rem;
+    display: grid;
+    text-align: center;
+    color: #fff;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.my-data-tile-wraper-single {
+    position: relative;
+    padding: 0 0px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 0.5rem;
+    display: grid;
+    text-align: center;
+    color: #fff;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.data-tile {
+    /* background: #a56ed1b0; */
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    width: 100%;
+    /* From https://css.glass */
+    background: rgba(78, 27, 141, 0.65);
+    border: 0.5px solid rgba(179, 85, 185, 0.4);
+}
+
+.data-tile .tile-title {
+    font-size: 15px;
+}
+
+.data-tile .inner-tile {
+    background: #6773B7;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #dadff8;
+}
+
+.tutor-data-wraper {
+    position: relative;
+    background: #4453A4;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tutor-data-wraper .tutor-data-btn-row {
+    gap: 0.5rem;
+}
+
+.tutor-data-wraper .tutor-data-btn {
+    color: #fff;
+    font-size: 35px;
+    width: 100%;
+    transition: 0.5s;
+    background-size: 200% auto;
+    /* align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px; */
+}
+
+.tutor-data-wraper .tutor-data-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+} 

@@ -1,0 +1,14 @@
+.btn-menu-bar-back {
+    background-color:#2D436B;
+    padding: 10px 0;
+}
+
+.btn-menu-bar-back .my-data-btn-row {
+    gap: 0.5rem;
+}
+
+.btn-menu-bar-back .my-data-btn {
+    font-size: 30px;
+    width: 100%;
+    transition: 0.5s linear;
+}

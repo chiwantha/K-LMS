@@ -1,0 +1,68 @@
+.class-video-disable {
+    pointer-events: none;
+}
+
+.class-preview-title-wrapper {
+    position: relative;
+    background: #EE357A;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.class-preview-video-wrapper {
+    pointer-events: none;
+    /*opacity: 0.95;*/
+    margin: 0;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    border: 3px solid #3EB649; /* Added border */
+    border-radius: 10px;
+    background-color: #3EB649;
+}
+
+.study-video-wrapper {
+    /* pointer-events: none; */
+    /*opacity: 0.95;*/
+    margin: 0;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    border: 3px solid #3EB649; /* Added border */
+    border-radius: 10px;
+    background-color: #3EB649;
+}
+
+.class-preview-details-wrapper {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.class-preview-price-wrapper {
+    background-color: #F7941D;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.class-preview-btn-wrapper {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: .5rem;
+}
+
+.btn-buy {
+    background-color: #3EB649;
+}
+
+.btn-back {
+    background-color: #EE3A25;
+}
+
